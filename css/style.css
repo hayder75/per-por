@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  background-color: rgb(33, 33, 189);
+  color:white;
+}
+body {
+  background-color: rgb(22, 22, 31);
+  margin: 0;
+  font-family: Roboto, sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+li {
+  list-style-type: none;
+}
+
+.header{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 7px;
+ 
+}
+.logo{
+  margin-left: 50px;
+
+}
+
+ul{
+  display: flex;
+  gap: 15px;
+  
+ 
+}
+.links{
+  
+  margin-right: 40px;
+}
+.header-links a{
+  color: aliceblue;
+  
+}
+.theme{
+  
+}
+
+.front{
+  display: flex;
+ justify-content: space-around;
+ margin-top: 50px;
+}
+
+.front-image{
+   width: 500px;
+   height: 250px; 
+  
+  }
+.text{
+
+  width:300px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  cursor: pointer;
+}
+
+
+.button {
+  background-color: #d89210; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 180px;
+}
+
+.works{
+  background-color: white;
+  color: black;
+  margin-top: 25px;
+  padding: 15px 0;
+}
+.works-text {
+text-align: center;
+ 
+}
+
+.skill-images{
+  display: flex;
+  justify-content: space-around;
+}
+.skill-image{
+max-width: 200px;
+
+}
+.skill-image img{
+width: 100px;
+height: 100px;
+  
+  }
+
+  .idea-talk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inspire{
+    width: 700px;
+  }
+
+  .author{
+    margin-top: -25px;
+    margin-left: 400px;
+  }
+
+  .cta{
+  background-color: black ;
+    padding-top: 20px;
+  }
+
+  .cta_parts{
+    background-color:rgb(115, 115, 243);
+    margin-left: 25%;
+    padding: 30px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.signup{
+  background-color: rgb(115, 115, 243); /* Green */
+  border: solid;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 80px;
+  height: 25px;
+}
+
+.odd{
+  background-color: white;
+
+}
